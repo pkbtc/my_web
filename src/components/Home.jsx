@@ -24,9 +24,9 @@ function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-10 max-w-3xl scale-90 origin-top">
+      <div className="container mx-auto px-4 py-10 max-w-3xl scale-90 origin-top md:pl-10">
         <header>
-          <h1 className="text-4xl font-bold mb-4 text-center md:text-left">hello, i am pk.eth</h1>
+          <h1 className="text-4xl font-bold mb-4 text-center md:text-left sm:whitespace-nowrap">hello, i am pk.eth</h1>
           <p className="text-gray-300 mb-2 text-center md:text-left">
             i am a second year student, studying electronics and communication.
           </p>
