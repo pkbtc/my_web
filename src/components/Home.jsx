@@ -50,16 +50,12 @@ function Home() {
             <li><a href="https://github.com/pkbtc/crypted_vault" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">crypted vault</a></li>
             <li><a href="https://github.com/pkbtc/Nft_gating" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">nft gating</a></li>
             <li><a href="https://github.com/pkbtc/staking-dapp" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">staking daap</a></li>
-            
           </ul>
         </section>
-
-       
 
         <section className="mt-8">
           <h2 className="text-2xl font-bold text-center md:text-left"></h2>
           <ul className="list-none mt-4 space-y-2 text-center md:text-left">
-            
           </ul>
         </section>
       </div>
