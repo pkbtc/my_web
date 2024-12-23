@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Styles for List Alignment */
+/* Optional: Add styles for consistent dot alignment */
 ul {
-  list-style-position: inside;
+  padding: 0;
 }
 
-@media (min-width: 768px) {
-  ul {
-    list-style-position: outside;
-  }
+li {
+  list-style: none;
 }

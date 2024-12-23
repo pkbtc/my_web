@@ -49,8 +49,9 @@ function Home() {
           <h2 className="text-2xl font-bold text-center md:text-left">
             projects i have done
           </h2>
-          <ul className="list-disc pl-6 mt-4 space-y-2 text-center md:text-left marker:text-white marker:pl-2">
-            <li>
+          <ul className="list-none mt-4 space-y-2 text-center md:text-left">
+            <li className="flex items-start space-x-2">
+              <span className="text-white">•</span>
               <a
                 href="https://github.com/chkg2a/eleutheria"
                 target="_blank"
@@ -60,7 +61,8 @@ function Home() {
                 eleutheria
               </a>
             </li>
-            <li>
+            <li className="flex items-start space-x-2">
+              <span className="text-white">•</span>
               <a
                 href="https://github.com/pkbtc/crypted_vault"
                 target="_blank"
@@ -70,7 +72,8 @@ function Home() {
                 crypted vault
               </a>
             </li>
-            <li>
+            <li className="flex items-start space-x-2">
+              <span className="text-white">•</span>
               <a
                 href="https://github.com/pkbtc/Nft_gating"
                 target="_blank"
@@ -80,7 +83,8 @@ function Home() {
                 nft gating
               </a>
             </li>
-            <li>
+            <li className="flex items-start space-x-2">
+              <span className="text-white">•</span>
               <a
                 href="https://github.com/pkbtc/staking-dapp"
                 target="_blank"
