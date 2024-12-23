@@ -33,7 +33,9 @@ function Home() {
       {/* Main Content */}
       <div className="container mx-auto px-4 py-10 max-w-3xl scale-90 origin-top md:pl-0">
         <header>
-          <h1 className="text-3xl font-bold mb-4 text-center md:text-left sm:whitespace-nowrap">hello,i am pk.eth</h1>
+          <h1 className="text-3xl font-bold mb-4 text-center md:text-left sm:whitespace-nowrap">
+            hello, i am pk.eth
+          </h1>
           <p className="text-gray-300 mb-2 text-center md:text-left">
             i am a second year student, studying electronics and communication.
           </p>
@@ -44,18 +46,50 @@ function Home() {
         </header>
 
         <section className="mt-8">
-          <h2 className="text-2xl font-bold text-center md:text-left">projects i have done</h2>
-          <ul className="list-disc pl-5 mt-4 space-y-2 text-center md:text-left">
-            <li><a href="https://github.com/chkg2a/eleutheria" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">eleutheria</a></li>
-            <li><a href="https://github.com/pkbtc/crypted_vault" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">crypted vault</a></li>
-            <li><a href="https://github.com/pkbtc/Nft_gating" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">nft gating</a></li>
-            <li><a href="https://github.com/pkbtc/staking-dapp" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">staking daap</a></li>
-          </ul>
-        </section>
-
-        <section className="mt-8">
-          <h2 className="text-2xl font-bold text-center md:text-left"></h2>
-          <ul className="list-none mt-4 space-y-2 text-center md:text-left">
+          <h2 className="text-2xl font-bold text-center md:text-left">
+            projects i have done
+          </h2>
+          <ul className="list-disc pl-6 mt-4 space-y-2 text-center md:text-left marker:text-white marker:pl-2">
+            <li>
+              <a
+                href="https://github.com/chkg2a/eleutheria"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                eleutheria
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/pkbtc/crypted_vault"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                crypted vault
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/pkbtc/Nft_gating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                nft gating
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/pkbtc/staking-dapp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                staking daap
+              </a>
+            </li>
           </ul>
         </section>
       </div>
