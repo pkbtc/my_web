@@ -31,7 +31,7 @@ function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-16 max-w-3xl scale-90 origin-top md:pl-0">
+      <div className="container mx-auto px-4 py-10 max-w-3xl scale-90 origin-top md:pl-0">
         <header>
           <h1 className="text-3xl font-bold mb-4 text-center md:text-left sm:whitespace-nowrap">
             hello, i am pk.eth
