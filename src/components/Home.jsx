@@ -96,6 +96,24 @@ function Home() {
             </li>
           </ul>
         </section>
+
+        {/* My Random Thoughts Section */}
+        <section className="mt-8">
+          <h2 href="/blog" className="text-2xl font-bold text-center md:text-left">
+            my random thoughts
+          </h2><br/>
+          <a className="text-gray-300 mt-2 text-center md:text-left">
+            here i write about the topics i learn and some random things but in informal way.
+            </a> 
+          <div className="text-center md:text-left mt-4">
+            <a
+              href="https://pketh.bearblog.dev"
+              className="text-white hover:underline"
+            >
+              Read my blog
+            </a>
+          </div>
+        </section>
       </div>
     </div>
   );
